@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+</head>
+<body>
+
+<p class="p1">eaejkdnakjjafiojeiojeiohuioaefehpoiajfihfiuahiojweiuhoiuqhpeqifjfpihapiuffdidj;iajdoijfaihafi iawejiufhap ijip wahfihiafuhiaufha</p>
+
+<script src="jquery.min.js"></script>
+    <script src="jquery.collapser.js"></script>
+    <script src="jquery.collapser.min.js"></script>
+
+
+    <script>
+$(document).ready(function(){
+  $('.p1').collapser({
+    mode: 'chars',
+    truncate: 60
+  });
+  
+  $('.p2').collapser({
+    mode: 'block',
+    showText: 'Show paragraph',
+    hideText: 'Hide paragraph',
+    changeText: 1
+  });
+  
+  $('.p3 li').collapser({
+    mode: 'words',
+    truncate: 2,
+  });
+  
+});
+
+</script>
+
+
+
+</body>
+</html>
